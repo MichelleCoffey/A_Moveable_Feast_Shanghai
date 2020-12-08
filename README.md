@@ -1,45 +1,97 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **A Moveable Feast**
 
-Welcome USER_NAME,
+[View a live version of A Moveable Feast here](sample.com)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is the main website for *A Moveable Feast*. We hope to help foodies find local and international cusine amongst the 100,000 possible restaurant choices          in Shanghai. The site is designed to be responsive and accessible on a wide range of devices. Making it easy to navigate to all the relevant content.
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* User Stories 
+ 
+ 1. First Time Visitor Goals
 
-`python3 -m http.server`
+    a. 
 
-A blue button should appear to click: *Make Public*,
+    b. 
 
-Another blue button should appear to click: *Open Browser*.
+    c. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ 2. Returning Visitor Goals 
 
-A blue button should appear to click: *Make Public*,
+    a. 
 
-Another blue button should appear to click: *Open Browser*.
+    b. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    c. 
 
-## Updates Since The Instructional Video
+ 3. Frequent User Goals 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    a. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    b. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    c. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  ## Design 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  * Color Scheme  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    Bright but relaxing colors  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  * Typography 
+    
+    What font do I intend to use? Sans Serif should be the fall back font as is the industry standard and is compatible on most devices. 
 
---------
+  * Imagery
 
-Happy coding!
+    Images are incredibly important but it will attract the cutomer to the organisation. They will first engage with the food images. Then with those who participate in the events and finally with the different types of restaurtant. Images must depict diverse tastes and interests in order to attract a many and varied crowd. 
+
+  
+## Wireframes
+
+* Wireframe for the whole project. [View](wireframe/amf.pdf)
+  
+## Features  
+
+* Responsive on all devices and have interactive elements for bookings. Icons that link to further social media updates.
+
+## Technologies Used 
+
+### Languages Used 
+
+
+* HTML
+
+* CSS
+
+
+### Frameworks, Libraries, and Programs Used 
+
+1. Bootstrap 4.4.1:
+
+2. Hover.css:
+
+3.  Vix:
+
+    Vix was used to make the logo for A moveable Feast. 
+
+4. Google Fonts:
+
+5. Font Awesome:
+
+6. Git:
+
+7. Github:
+
+8. JQuery: 
+
+    * Is used by Bootstrap.
+
+9. Balsamiq: 
+
+    * Balsamiq was used to design and organise my WireFrames. 
+
+## Testing 
+
+The W3C Mark Up Validator and W3C CSS Validator Services was used to validate each page of the website to ensure there were no syntax errors in the prioject. 
