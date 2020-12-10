@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    color: #555555;
+}
+
+
+#logo {
+    float: left;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 120px;
+    position: relative;
+}
+
+#menu {
+    color: #555555;
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    bottom: 0;
+}
+
+#menu, #logo {
+    line-height: 50px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+}
+
+#business-model {
+    height: 500px;
+}
+
+#left-about {
+    padding-top: 20px;
+    width: 40%;
+    float: left;
+    padding-left: 20px;
+}
+
+#right-about {
+    padding-top: 20px;
+    width: 60%;
+    float: right;
+    padding-left:  10px;
+    padding-right: 10px;  
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+p {
+    padding-right: 10px;
+}
+
+#organisers {
+    height: 500px;
+}
+
+#left-image-1 {
+    padding-top: 20px;
+    width: 40%;
+    height:  50%;
+    float: left;
+    padding-left: 20px;
+    border-radius: 50%
+}
+
+#right-text-1 {
+   padding-top: 20px;
+    width: 60%;
+    float: right;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+#left-image-2 {
+    padding-top: 20px;
+    width: 40%;
+    height: 50%;
+    float: left;
+    padding-left: 20px;
+    border-radius: 50%
+}
+
+#right-text-2 {
+   padding-top: 20px;
+    width: 60%;
+    float: right;
+    padding-left:  10px;
+    padding-right: 10px;
+}
+
+
