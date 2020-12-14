@@ -80,11 +80,24 @@ p {
 }
 
 .img-circle {
-    padding-top: 20px;
-    width: 40%;
     border-radius: 50%;
+}
+
+#left-about-img {
+    width: 40%;
+    float: left;
+    padding-left: 20px;
+}
+
+#right-about-jen, #right-about-tom {
+    float: right;
+    width: 60%;
     padding: 20px;
 }
+
+
+
+
 
 
 
