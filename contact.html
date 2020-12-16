@@ -10,7 +10,85 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Contact</title>
 </head>
+
 <body>
+        <header>
+        <nav>
+            <div>
+                <a href="index.html"><img id="logo" src="images/logo.png" alt="noodle bowl with chopsticks with A Moveable Feast to the side of the bowl"></a>
+            
+            
+                <ul id="menu">
+                    <li>
+                    <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                    <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                    <a href="feast.html">Feast</a>
+                    </li>
+                    <li>
+                    <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+<body>
+    <section>
+        <div class="form">
+            <form action="/action_page.php">
+                <fieldset>
+                <div>
+                    <legend>Contact</legend>
+                </div>
+        <div>
+            <label for="fname"> First name:</label>
+            <input type="text" id="fname" name="fname">
+        </div>
+  <div>
+    <label for="lname"> Last name:</label>
+    <input type="text" id="lname" name="lname">
+  </div>
+  <div>
+    <label for="email"> Email:</label>
+    <input type="email" id="email" name="email">
+  </div>
+  <div>
+    <label for="feast">Let's Feast:</label>
+        <select id="feast" name="feast">
+            <option value="local-eats">Local Eats</option>
+            <option value="where-in-the-world">Where in the World!</option>
+            <option value="cocktails-and-mocktails">Cocktails and Mocktails</option>
+        </select>
+    </div>
+      
+ <div>
+  <label for="date"> Date:</label>
+  <input type="date" id="date" name="date">
+</div>
+
+  <div>
+    <label for="subject"> Inquiries:</label>
+    <textarea id="inquiries" name="inquiries" placeholder="To receive details on nights out message here" style="height:200px"></textarea>
+   </div>
+
+    
+    <div>
+      <input type="submit" value="Let's Feast!">
+    </div>
+ </fieldset>
+ 
+</form>
+</div>
+</section>
+
+</body>
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
