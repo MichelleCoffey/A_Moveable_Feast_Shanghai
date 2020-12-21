@@ -5,6 +5,10 @@ body {
     color: #555555;
 }
 
+.navbar {
+    background-color: white;
+}
+
 
 #logo {
     float: left;
@@ -98,26 +102,20 @@ h2 {
 }
 
 
-.form  {
+form  {
+    
   width: 500px;
+
   border: 5px solid black;
   padding: 50px;
   margin: 250px;
   
   padding-top: 20px;
   position: absolute;
-  display: inline-flexbox;
   text-transform: uppercase;
 }
 
-.label {
-    font-weight: 700;
-    margin-right: 10px;
-}
 
-.input {
-    text-align: block;
-}
 
 
 

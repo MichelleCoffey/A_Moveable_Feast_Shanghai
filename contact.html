@@ -39,56 +39,57 @@
 
 
     <section>
-        <div class="form">
-            <form action="/action_page.php">
-                <fieldset>
-                <div>
-                    <legend>Contact</legend>
-                </div>
-        <div>
-            <label for="fname"> First name:</label>
-            <input type="text" id="fname" name="fname">
+        <form>
+        <div class="form-group row">
+            <label for="fname" class="col-sm-2 col-form-label"> First name:</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" id="fname" name="fname">
         </div>
-  <div>
-    <label for="lname"> Last name:</label>
-    <input type="text" id="lname" name="lname">
+    </div>
+  <div class="form-group row">
+    <label for="lname" class="col-sm-2 col-form-label">Last name:</label>
+    <div class="col-sm-10">
+    <input type="text" class="form-control" id="lname" name="lname">
   </div>
-  <div>
-    <label for="email"> Email:</label>
-    <input type="email" id="email" name="email">
+</div>
+      <div class="form-group row">
+    <label for="email" class="col-sm-2 col-form-label"> Email:</label>
+    <div class="col-sm-10">
+    <input type="email" class="form-control" id="email" name="email">
   </div>
-
-  <div>
-    <label for="feast">Let's Feast:</label>
-    <div>
-        <select id="feast" name="feast">
+</div>
+  <div class="form-group row">
+    <label for="feast" class="col-sm-2 col-form-label">Let's Feast:</label>
+    <div class="col-sm-10">
+        <select id="feast" class="form-control" name="feast">
             <option value="local-eats">Local Eats</option>
             <option value="where-in-the-world">Where in the World!</option>
             <option value="cocktails-and-mocktails">Cocktails and Mocktails</option>
         </select>
     </div>
     </div>
-      
- <div>
-  <label for="date"> Date:</label>
-  <div>
-    <input type="date" id="date" name="date">
+   <div class="form-group row">
+  <label for="date" class="col-sm-2 col-form-label"> Date:</label>
+  <div class="col-sm-10">
+    <input type="date" class="form-control" id="date" name="date">
   </div>
 </div>
+<div class="form-group">
+    <label for="inquiries" class="col-sm-2 col-form-label">Inquiries</label>
+    <div class="col-sm-10">
+    <textarea class="form-control" id="inquiries" rows="3"></textarea>
+  </div>
 
-  <div>
-    <label for="subject"> Inquiries:</label>
-    <div>
-    <textarea id="inquiries" name="inquiries" placeholder="Are you a spice queen or are you missing some home comforts?" style="height:200px"></textarea>
-     </div>
-</div>
-    <div>
-      <input type="submit" value="Let's Feast!">
+
+
+<div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Feast</button>
     </div>
- </fieldset>
+  </div>
+
  
 </form>
-</div>
 </section>
 
 
