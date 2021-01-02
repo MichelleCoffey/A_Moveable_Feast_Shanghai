@@ -11,8 +11,8 @@
 <title>Contact</title>
 </head>
 
-<body>
-        <header>
+<body id="contact">
+    <header>
         <nav>
             <div>
                 <a href="index.html"><img id="logo" src="images/logo.png" alt="noodle bowl with chopsticks with A Moveable Feast to the side of the bowl"></a>
@@ -40,34 +40,39 @@
 
     <section>
         <form>
-        <div class="form-group row">
-            <label for="fname" class="col-sm-2 col-form-label"> First name:</label>
+        
+            
+            <div class="form-group row">
+                <label for="name" class="col-sm-2 col-form-label"> Name: </label>
             <div class="col-sm-10">
-            <input type="text" class="form-control" id="fname" name="fname">
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="email" class="col-sm-2 col-form-label"> Email: </label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" name="email">
         </div>
     </div>
-  <div class="form-group row">
-    <label for="lname" class="col-sm-2 col-form-label">Last name:</label>
-    <div class="col-sm-10">
-    <input type="text" class="form-control" id="lname" name="lname">
+ <form class="form-inline">
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Let's Feast:</label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>Choose...</option>
+    <option value="local-eats">Local eats</option>
+    <option value="where-in-the-world">Where in the World</option>
+    <option value="cocktails-and-mocktails">Cocktails and Mocktails</option>
+  </select>
+
+  <div class="custom-control custom-checkbox my-1 mr-sm-2">
+    <input type="checkbox" class="custom-control-input" id="customControlInline">
+    <label class="custom-control-label" for="customControlInline">Remember my preference</label>
   </div>
-</div>
-      <div class="form-group row">
-    <label for="email" class="col-sm-2 col-form-label"> Email:</label>
-    <div class="col-sm-10">
-    <input type="email" class="form-control" id="email" name="email">
-  </div>
-</div>
-  <div class="form-group row">
-    <label for="feast" class="col-sm-2 col-form-label">Let's Feast:</label>
-    <div class="col-sm-10">
-        <select id="feast" class="form-control" name="feast">
-            <option value="local-eats">Local Eats</option>
-            <option value="where-in-the-world">Where in the World!</option>
-            <option value="cocktails-and-mocktails">Cocktails and Mocktails</option>
-        </select>
-    </div>
-    </div>
+
+ 
+
+
+    
    <div class="form-group row">
   <label for="date" class="col-sm-2 col-form-label"> Date:</label>
   <div class="col-sm-10">
@@ -75,21 +80,16 @@
   </div>
 </div>
 <div class="form-group">
-    <label for="inquiries" class="col-sm-2 col-form-label">Inquiries</label>
-    <div class="col-sm-10">
-    <textarea class="form-control" id="inquiries" rows="3"></textarea>
+    <label for="exampleFormControlTextarea1">What would you like to eat?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 
 
-
-<div class="form-group row">
-    <div class="col-sm-10">
-      <button type="submit" class="btn btn-primary">Feast</button>
-    </div>
-  </div>
-
- 
+<button type="submit" class="btn btn-primary my-1">Submit</button>
 </form>
+</form>
+
+
 </section>
 
 
