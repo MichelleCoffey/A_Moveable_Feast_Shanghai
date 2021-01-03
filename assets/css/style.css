@@ -18,32 +18,37 @@ body {
     position: relative;
 }
 
-#menu {
+
+#navbarTogglerDemo02 {
     color: #13baec;
     font-size: 100%;
     list-style-type: none;
     letter-spacing: 2px;
     text-transform: uppercase;
-    bottom: 0;
+    bottom: 0%; 
+       
 }
 
-#menu, #logo {
+#navbarTogglerDemo02, #logo {
     line-height: 50px;
 }
 
-#menu li {
+#navbarTogglerDemo02 li {
     float: right;
     margin-right: 20px;
 }
 
-#menu a {
+#navbarTogglerDemo02 a {
     text-decoration: none;
+    border-color:  #13baec;
     color: inherit;
+    
 }
 
-#menu a:hover {
-    border-bottom: 2px solid #777777;
+#navbarTogglerDemo02 a:hover {
+    border-bottom: 1px solid #777777;
 }
+
 
 #hero-image, #market-image, #jfood {
     height: 500px;
@@ -113,7 +118,7 @@ form  {
   
   padding-top: 30px;
   position: absolute;
-  
+ 
 }
 
 .btn-primary {
@@ -122,6 +127,9 @@ form  {
    border-color: none;
 }
 
+section {
+    display: block;
+}
 
 
 
