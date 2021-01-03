@@ -29,6 +29,8 @@ body {
        
 }
 
+
+
 #navbarTogglerDemo02, #logo {
     line-height: 50px;
 }
@@ -94,16 +96,26 @@ p {
     border-radius: 50%;
 }
 
-#left-about-img {
-    width: 40%;
-    float: left;
-    padding-left: 20px;
-    padding-bottom: 10%;
-}
+
 
 h2 {
     float: right;
     width: 60%;
+}
+
+h5  {
+    color: #13baec;
+    font-size: 100%;
+    letter-spacing: 2px;
+    border-spacing: 10px;
+}
+
+h2 {
+    color: #13baec;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+
 }
 
 
@@ -117,7 +129,7 @@ form  {
   margin: 250px;
   
   padding-top: 30px;
-  position: absolute;
+  position: relative;
  
 }
 
@@ -131,20 +143,17 @@ section {
     display: block;
 }
 
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: left;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+.media-body {
+    padding-bottom: 75px;
+}
 
 
 
