@@ -155,5 +155,30 @@ section {
     padding-bottom: 75px;
 }
 
+i {
+    color:  #13baec;
+}
+
+footer{
+    height: 100px;
+    background-color: #13baec;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 3%;
+    color: white;
+}
+
 
 
