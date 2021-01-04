@@ -155,6 +155,10 @@ section {
     padding-bottom: 75px;
 }
 
+.media {
+    float: left;
+}
+
 i {
     color:  #13baec;
 }
@@ -180,5 +184,8 @@ footer{
     color: white;
 }
 
+.alert {
+    background-color: #13baec;
+}
 
 
