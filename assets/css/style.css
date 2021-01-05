@@ -98,13 +98,14 @@ form  {
 }
 
 .btn-primary {
-
    background-color: #13baec;  
 }
 
 section {
     display: block;
 }
+
+
 /* Form Finished */
 
 /* Company introduction and Tours */
@@ -114,6 +115,7 @@ section {
 
 .media {
     float: left;
+    padding-bottom: 75px;
 }
 
 i {
@@ -128,21 +130,10 @@ i {
 
 /* Footer */
 footer{
-    height: 100px;
     width: 100%;
     background-color: #13baec;
 }
 
-
-
-
-
-footer{
-    height: 150px;
-    width: 100%;
-    background-color: #13baec;
-    
-}
 
 
 .social-networks{
@@ -163,6 +154,12 @@ footer{
     margin: 1%;
     padding: 5%;
     color: white;
+}
+
+ul.social-networks {
+    padding: 0;
+    margin: 0;
+    
 }
 
 
