@@ -78,6 +78,7 @@ h2 {
     text-transform: uppercase;
     padding-bottom: 10px;
     text-align: center;
+    font-weight: 100;
 
 }
 
@@ -118,7 +119,9 @@ i {
 
 footer{
     height: 100px;
+    width: 100%;
     background-color: #13baec;
+
 }
 
 .social-networks{
@@ -127,10 +130,10 @@ footer{
 
 .social-networks li{
     display: inline;
-    top: 50%;
     width: 100%;
     text-align: center;
     font-size: 18px;
+    margin: auto;
 }
 
 .social-networks i{
@@ -154,3 +157,7 @@ footer{
     padding: 10px;
 }
 
+.thumbnail-img {
+
+    border-color: #13baec;
+}
