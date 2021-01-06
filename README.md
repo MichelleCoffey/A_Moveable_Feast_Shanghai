@@ -1,9 +1,12 @@
 # **A Moveable Feast**
 
-[View a live version of A Moveable Feast here](sample.com)
+[View a live version of A Moveable Feast here](https://michellecoffey.github.io/A_Moveable_Feast_Shanghai/index.html)
 
 This is the main website for *A Moveable Feast*. We hope to help foodies find local and international cusine amongst the 100,000 possible restaurant choices          in Shanghai. The site is designed to be responsive and accessible on a wide range of devices. Making it easy to navigate to all the relevant content.
 
+
+![alt text](images/display.png) "A Moveable Feast on multiple displays"
+![alt text](images/displaydiff.png) "A Moveable Feast on multiple displays"
 ## User Experience (UX)
 
 * User Stories 
@@ -91,6 +94,9 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 9. Balsamiq: 
 
     * Balsamiq was used to design and organise my WireFrames. 
+
+10. Tinypng
+     * Tinypng for fomatting images, so they. loaded faster.
 
 ## Testing 
 
