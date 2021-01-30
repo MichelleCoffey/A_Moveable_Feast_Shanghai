@@ -88,6 +88,7 @@ h2 {
     text-align: center;
     font-weight: 100;
 }
+
 h3 {
     color: #13baec;
     font-weight: 100;
@@ -141,9 +142,6 @@ i {
 }
 
 
-i.fas.fa-utensils a:hover {
-    color: red;
-}
 
 
 /* Tours Finished */
@@ -180,6 +178,10 @@ ul.social-media {
     margin: 0;
     
 }
+
+
+
+
 
 /* Footer Finished */
 
