@@ -61,7 +61,13 @@ body {
 }
 
 .col-sm-4 {
-    padding: 10px;
+    padding: 10px;   
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
