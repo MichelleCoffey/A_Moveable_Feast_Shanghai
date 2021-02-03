@@ -105,32 +105,50 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 
 ### Frameworks, Libraries, and Programs Used 
 
-1. Bootstrap 4.4.1:
+1. [Bootstrap](https://www.getbootstrap.com)
+  
+    Bootstrap 4.6.X:
 
 2. Hover.css:
 
-3.  Vix:
+3.  [Wix](https://www.wix.com/)
 
-    Vix was used to make the logo for A moveable Feast. 
+    Wix was used to make the logo for A moveable Feast. 
 
-4. Google Fonts:
+4. [Google Fonts](https://fonts.google.com/specimen/Montserrat?preview.text_type=custom)
 
-5. Font Awesome:
 
-6. Git:
+5. [Fontawesome](https://fontawesome.com/)
 
-7. Github:
+    Fontawesome was used for to get icons for utensils and aa cocktail on the feast page. 
+
+6. [Gitpod](https://gitpod.io/workspaces/)
+
+    Used gitpod to work on my repositories. 
+
+7. [Github](https://github.com/MichelleCoffey/A_Moveable_Feast_Shanghai/tree/1a91746d21707106faef91c699500aff9414e097)
+
+     GitHub is hosting my repositories. 
 
 8. JQuery: 
 
     * Is used by Bootstrap.
 
-9. Balsamiq: 
+9. [Balsamiq](https://balsamiq.com/)
+
 
     * Balsamiq was used to design and organise my WireFrames. 
 
-10. Tinypng
+10. [TinyPNG](https://tinypng.com/)
+
      * Tinypng for fomatting images, so they. loaded faster.
+
+11. [Unsplash](https://unsplash.com/)
+
+
+    * Upsplash was used to access some stock images to add to the site and in particular the galllery and carousel. 
+
+
 
 ## Testing 
 
