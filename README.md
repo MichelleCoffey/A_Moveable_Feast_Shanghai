@@ -7,6 +7,41 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 
 ![alt text](images/display.png) "A Moveable Feast on multiple displays"
 ![alt text](images/displaydiff.png) "A Moveable Feast on multiple displays"
+
+## Table of Contents
+
+[User Experience](#user-experience-(ux))
+
+[User Stories](#user-stories)
+
+[First Time Visitor Goals](#first-time-visitor-goals)
+
+[Returning Visitor Goals](#returning-visitor-goals)
+
+[Frequent Visitor Goals](#frequent-visitor-goals)
+
+[Design](#design)
+
+[Color Scheme](#color-scheme)
+[Typography](#typography)
+[Imagery](#imagery)
+[Features](#features)
+[Text](link)
+
+
+[Deployment](#delpoyment)
+
+[Text](link)
+
+[Text](link)
+
+[Text](link)
+
+[Text](link)
+
+[Text](link)
+
+
 ## User Experience (UX)
 
 * User Stories 
@@ -42,60 +77,32 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
     This is static site so less things will change and there will be little need for frequent users. Users can return to check if any images have been updated. 
 
 
-  ## Design 
+# Design 
 
-  * Color Scheme  
+  ## Color Scheme  
 
-    Bright but relaxing colors  
+  * Bright but relaxing colors  
 
-  * Typography 
+ ## Typography 
     
-    What font do I intend to use? Sans Serif should be the fall back font as is the industry standard and is compatible on most devices. 
+  * What font do I intend to use? Sans Serif should be the fall back font as is the industry standard and is compatible on most devices. 
 
-  * Imagery
+ ## Imagery
 
-    Images are incredibly important but it will attract the cutomer to the organisation. They will first engage with the food images. Then with those who participate in the events and finally with the different types of restaurtant. Images must depict diverse tastes and interests in order to attract a many and varied crowd. 
-
-  # Deployment 
-
-  ## Github
-  ### The repository is hosted on github and I have therefore used github pages to deploy the site. 
-
-    1. On Github, go to your site's repository.
-    2. Under your repository name, click settings and scroll down to github pages. 
-    3. Under the "Github pages:", use the None or Branch drop-down menu and select a publishing source. For a Moveable Feast, the master was selected, root and both actions were saved using the save button. A theme or custom domain were not chosen at this time. 
-    4. After saving the actions. Next click the active link on the repository page on github. Full delpoyment may take a minute or two, so refresh the page and be patient. 
-  
-  ### Cloning of Repository to a local device.
-
-    1. On GitHub, again go to the main page of the repository. 
-    2. Above the ist of files, click Code. 
-    3. To clone the repository using HTTPS, under "Clone with HTTPS", click. 
-       To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . 
-       To clone a repository using GitHub CLI, click Use GitHub CLI, then click .
-    4. Open Terminal 
-    5. Change the cirrent working directory to the location where you want the cloned directory. 
-    6. TYpe git clone, and then paste the URL you copied eariler. 
-    7. Press Enter to create your local clone. 
-
-  ### Cloning a repository to GitHub Desktop. 
-
-  1. On GitHub, naviagte to the main page of the repository.
-  2. Above the list of files, click Code. 
-  3. Click  Open with GitHub Desktop to clone and open the repository with GitHub Desktop.
-  4. Follow the prompts in GitHub Desktop to complete.
-
-## Wireframes
-
-* Wireframe for the whole project. [View](wireframe/amf.pdf)
+  * Images are incredibly important but it will attract the cutomer to the organisation. They will first engage with the food images. Then with those who participate in the events and finally with the different types of restaurtant. Images must depict diverse tastes and interests in order to attract a many and varied crowd. 
   
 ## Features  
 
 * Responsive on all devices and have interactive elements for bookings. Icons that link to further social media updates.
 
-## Technologies Used 
+## Wireframes
 
-### Languages Used 
+* Wireframe for the whole project. [View](wireframe/amf.pdf)
+
+
+# Technologies Used 
+
+## Languages Used 
 
 
 * HTML
@@ -103,7 +110,7 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 * CSS
 
 
-### Frameworks, Libraries, and Programs Used 
+## Frameworks, Libraries, and Programs Used 
 
 1. [Bootstrap](https://www.getbootstrap.com)
   
@@ -148,8 +155,55 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 
     * Upsplash was used to access some stock images to add to the site and in particular the galllery and carousel. 
 
+# Deployment 
+
+  ## Github
+  ### The repository is hosted on github and I have therefore used github pages to deploy the site. 
+
+  1. On Github, go to your site's repository.
+  2. Under your repository name, click settings and scroll down to github pages. 
+  3. Under the "Github pages:", use the None or Branch drop-down menu and select a publishing source. For a Moveable Feast, the master was selected, root and both actions were saved using the save button. A theme or custom domain were not chosen at this time. 
+  4. After saving the actions. Next click the active link on the repository page on github. Full delpoyment may take a minute or two, so refresh the page and be patient. 
+  
+### Cloning of Repository to a local device.
+
+  1. On GitHub, again go to the main page of the repository. 
+  2. Above the ist of files, click Code. 
+  3. To clone the repository using HTTPS, under "Clone with HTTPS", click. 
+       To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . 
+       To clone a repository using GitHub CLI, click Use GitHub CLI, then click .
+  4. Open Terminal 
+  5. Change the cirrent working directory to the location where you want the cloned directory. 
+  6. TYpe git clone, and then paste the URL you copied eariler. 
+  7. Press Enter to create your local clone. 
+
+### Cloning a repository to GitHub Desktop. 
+
+  1. On GitHub, naviagte to the main page of the repository.
+  2. Above the list of files, click Code. 
+  3. Click  Open with GitHub Desktop to clone and open the repository with GitHub Desktop.
+  4. Follow the prompts in GitHub Desktop to complete.   
+
 
 
 ## Testing 
 
-The W3C Mark Up Validator and W3C CSS Validator Services was used to validate each page of the website to ensure there were no syntax errors in the prioject. 
+HTML Code Testing was provided by W3C MarkUp Markup Validation Services. I have removed the warning because nottes were flagged because of "--".
+
+![alt text](images/homevalidator.png) "Home Page HTML success."
+
+![alt text](images/feastvalidator.png) "Feast Page HTML success."
+
+![alt text](images/galleryvalidator.png) "Gallery Page HTML success."
+
+![alt text](images/contactvalidator.png) "Contact Page HTML success."
+
+W3C CSS Validator Services was used to validate CSS.
+
+![alt text](images/cssvalidator.png) "Home Page HTML success."
+
+
+
+![alt text](images/lighthouse.png) "Lighthouse score for the websites user efficency."
+
+Dev tools for google was also used to test the websites preformance. Lighthouse flagged that when using target="_blank" and additional instruction of rel="noopener" needed to be added to protect security.
