@@ -48,7 +48,13 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 
 ### [Testing](#testing)
 
-* [Bugs](#bugs)
+[Bugs](#bugs)
+
+- [Gallery](#gallery)
+
+- [Navbar](#navbar)
+
+- [form](#form)
 
 ### [Acknowledgements](#acknowledgements)
 
@@ -92,7 +98,17 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 
     This is static site so less things will change and there will be little need for frequent users. Users can return to check if any images have been updated. 
           
- 4. Photo story for first time user.  
+ ### Photo story for first time user
+
+ ![A Moveable Feast homepage on mobile, ipad, ipad pro and desk top.](images/homepage.png) "A Moveable Feast on multiple displays"
+
+ The user will find images of the city, food and market dining options. There is also an easy to use navbar that links easily to the gallery, dining option informationa and finally the contact section. The landing page also explains the idea behind the website. Due to Covid many people are concerned over eating in public or especially dining out with strangers. This alsert is hopefully temporary but guides the user to QR codes that help register the health info of the user but also an account for further information. 
+
+ ![A pdf with Covid19 information and city QR codes.](images/covid19.png) "Covid19 safety information PDF"
+
+
+
+
  
 # Design 
 
@@ -232,7 +248,43 @@ Lighthouse performance on mobile was lower,  Performance 60%, Accessibilty 95%, 
 
 ### Bugs
 
-No bugs are evident following multiple tests of the site. 
+#### Gallery
+
+While developing the site some issues were raised. In the gallery page, there were three main bugs that had to be resolved. 
+
+1. This bug involved the lack of padding between the images. In the CSS I targeted the padding-bottom to remedy this problem. 
+
+2. On mobile device it lost all padding and so by asking a tutor for guidance and also looking at dev tools we were able to use some css to fix it.  
+.col-sm-4 {
+
+    padding: 10px;   
+}
+
+3. When the gallery images were on a mobile device the would appear to the left the screen when I wanted them in the center. Stackoverflow provided a solution to this which I then worked on for A Moveable Feast 
+
+.center-block {
+
+  display: block;
+
+  margin-right: auto;
+
+  margin-left: auto;
+
+}
+
+#### Navbar
+
+* Because the logo was designed on Wix and was white, I had to target the color because bootstrap overrides the border color. 
+  I did this by making the navbar background-color white in the style sheet. 
+
+
+ #### Form 
+
+ * This was the most difficult to control but by making the margin: auto it became responsive and also by adding d-flex from bootstrap. 
+
+
+
+
 
 
 ## Acknowledgements
@@ -272,5 +324,23 @@ No bugs are evident following multiple tests of the site.
  * My Mentor, Allen Thomas Varghese is a great help. 
 
  * Tutors at Code Institute are great guiding hand.   They do not give you the answer but ask the right questions to lead you down the correct path. It also helps build confidence. 
+
+ * Anne Greaves and Code Institute for a comprehensive guide to writing README.md. The template was taken from the Code Institute Guide to writing README and how to write Markdown.
+
+ * Alex Harvey, a guide to writing a table of contents in gitpod. 
+
+#### Code
+
+* The alert as an idea was a nod to the whiskey drop site we developed via code institute. 
+  When researching other food tour companies I also noticed some had considered Covid19 and 
+  their business so thought it was appropriate to add a pdf to guide the user to policy and 
+  also a QR code that could be used as a means of registration. My limitations means I was 
+  unable to fully add this to the site. One such website was untour foodtour that had an alert for it's cutomers. 
+
+* The Navbar was found while researching Bootstrap and was used because it was responsive and 
+  would help with making my site first. I did have to overide some elements as is mentioned in the bugs section. 
+
+* The footer was learned from the Love running mini project but was again adapted for my own needs. 
+
 
 
