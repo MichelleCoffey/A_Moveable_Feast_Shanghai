@@ -20,6 +20,9 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 
 * [Frequent Visitor Goals](#frequent-visitor-goals)
 
+* [Photo story for first time user](#photo-story-for-first-time-user)
+
+
 ### [Design](#design)
 
 * [Color Scheme](#color-scheme)
@@ -102,11 +105,29 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 
  ![A Moveable Feast homepage on mobile, ipad, ipad pro and desk top.](images/homepage.png) "A Moveable Feast on multiple displays"
 
- The user will find images of the city, food and market dining options. There is also an easy to use navbar that links easily to the gallery, dining option informationa and finally the contact section. The landing page also explains the idea behind the website. Due to Covid many people are concerned over eating in public or especially dining out with strangers. This alsert is hopefully temporary but guides the user to QR codes that help register the health info of the user but also an account for further information. 
+ The user will find images of the city, food and market dining options. There is also an easy to use navbar that links easily to the gallery, dining option informationa and finally the contact section. The landing page also explains the idea behind the website and the idea of making it easier to intruducing new food to tourists living in Shanghai. Due to Covid many people are concerned over eating in public or especially dining out with strangers. This alsert is hopefully temporary but guides the user to QR codes that help register the health info of the user but also an account for further information. 
 
  ![A pdf with Covid19 information and city QR codes.](images/covid19.png) "Covid19 safety information PDF"
 
+  In this time of Covid19, the user will find an alert regarding practices and safety measures. 
+  This links to a pdf with two QR codes. One QR code is for the WECHAT account and gives the user 
+  the oppourtunity to contact A Moveable Feast regarding concerns about dining out. The second is 
+  QR for registering your Health status as required by Shanghai Municipality and restaurants.
+  The alert can also be removed and does not affect the site, when things change for the better. 
 
+  ![A Moveable Feast feast page on mobile, ipad, ipad pro and desktop.](images/feastpage.png) "Feast page on multiple devices. "
+
+  The user will find info with a picture connected to each dining option. Should they want local food, 
+  international food or to find a new drinking spot. Each option also has an icon of either cutlery or 
+  a cocktail glass that links to the signup page. 
+
+  ![A Moveable Feast gallery page on mobile, ipad, ipad pro and desktop.](images/gallerypage.png) "Gallery page on multiple devices. "
+
+  The user will find examples of the many delectable foods on offer around Shanghai. 
+
+  ![A Moveable Feast contact page on mobile, ipad, ipad pro and desktop.](images/contactpage.png) "Contact page on multiple devices. "
+
+  The user is given the oppourtunity to register and request further information regarding nights out in Shanghai. 
 
 
  
@@ -133,7 +154,17 @@ This is the main website for *A Moveable Feast*. We hope to help foodies find lo
 
 ## Wireframes
 
-* Wireframe for the whole project. [View](wireframe/amf.pdf)
+* Wireframe for the whole project. [View](wireframes/amf.pdf)
+
+![Homepage wireframe.](images/home.png) "Home page wireframe "
+
+![Feast wireframe.](images/dining.png) "Feast wireframe "
+
+![Gallery wireframe.](images/gallery.png) "Gallery wireframe "
+
+![Contact wireframe.](images/contact.png) "Contact wireframe "
+
+![Health wireframe.](images/health.png) "Health wireframe "
 
 
 # Technologies Used 
